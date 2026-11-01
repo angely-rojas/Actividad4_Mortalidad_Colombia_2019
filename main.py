@@ -171,19 +171,57 @@ else:
         five['Lugar']=five.municipio+' · '+five.departamento
         violent=px.bar(five,x='Casos',y='Lugar',orientation='h',color='Casos',color_continuous_scale='Reds') if len(five) else blank('No se identificaron casos X95')
         violent.update_yaxes(categoryorder='total ascending')
-        # Tasas por residencia habitual: unir códigos DANE normalizados.
-        # Las porciones de la dona son defunciones; las tasas figuran en el hover.
-        lowest = lowest_residence_rates(d, pop)
+
+        # Gráfico 04: menores tasas municipales por residencia
+        lowest = lowest_residence_rates(d, pop).copy()
+
         if not lowest.empty:
-            pie=px.pie(lowest,names='Lugar',values='Defunciones',hole=.35,
-                       custom_data=['Tasa por 100.000','poblacion_total'],
-                       labels={'Defunciones':'Defunciones de residentes'})
-            pie.update_traces(textinfo='none',hovertemplate=(
-                '<b>%{label}</b><br>Defunciones de residentes: %{value}'
-                '<br>Tasa: %{customdata[0]:.2f} por 100.000 hab.'
-                '<br>Población 2019: %{customdata[1]:,.0f}<extra></extra>'))
+            # Garantizar que las variables sean numéricas
+            lowest['Tasa por 100.000'] = pd.to_numeric(
+                lowest['Tasa por 100.000'], errors='coerce'
+            )
+            lowest['poblacion_total'] = pd.to_numeric(
+                lowest['poblacion_total'], errors='coerce'
+            )
+
+            # Excluir registros sin valores válidos
+            lowest = lowest.dropna(
+                subset=['Tasa por 100.000', 'poblacion_total']
+            )
+            lowest = lowest[
+                (lowest['poblacion_total'] > 0) &
+                (lowest['Tasa por 100.000'] >= 0)
+            ].copy()
+
+        if not lowest.empty:
+            lowest['Detalle'] = lowest.apply(
+                lambda r: (
+                    f"<b>{r['Lugar']}</b><br>"
+                    f"Defunciones de residentes: {int(r['Defunciones']):,}<br>"
+                    f"Tasa: {r['Tasa por 100.000']:.2f} por 100.000 hab.<br>"
+                    f"Población 2019: {int(r['poblacion_total']):,}"
+                ),
+                axis=1
+            )
+
+            pie = px.pie(
+                lowest,
+                names='Lugar',
+                values='Defunciones',
+                hole=0.35,
+                custom_data=['Detalle']
+            )
+
+            pie.update_traces(
+                textinfo='none',
+                hovertemplate='%{customdata[0]}<extra></extra>'
+            )
         else:
-            pie=blank('No hay datos válidos de residencia y población para calcular las tasas')
+            pie = blank(
+                'No hay datos válidos de residencia y población '
+                'para calcular las tasas'
+            )
+
         causes=q.groupby(['causa','nombre_causa'],dropna=False).size().reset_index(name='casos').nlargest(10,'casos')
         causes['casos']=causes.casos.map(lambda x:f'{x:,}'.replace(',','.'))
         sex=q.groupby(['departamento','sexo_etiqueta']).size().reset_index(name='Defunciones')
