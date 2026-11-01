@@ -68,6 +68,40 @@ def load_geojson():
 MONTHS=['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre']
 AGES=[('Mortalidad neonatal',0,4),('Mortalidad infantil',5,6),('Primera infancia',7,8),('Niñez',9,10),('Adolescencia',11,11),('Juventud',12,13),('Adultez temprana',14,16),('Adultez intermedia',17,19),('Vejez',20,24),('Longevidad / centenarios',25,28),('Edad desconocida',29,29)]
 
+def normalize_municipal_code(series):
+    """Convertir códigos DANE a cinco dígitos sin perder ceros iniciales."""
+    numeric = pd.to_numeric(series, errors='coerce')
+    valid = numeric.where(numeric.between(0, 99999) & numeric.mod(1).eq(0))
+    return valid.astype('Int64').astype('string').str.zfill(5)
+
+
+def lowest_residence_rates(data, population):
+    """Calcular tasas brutas registradas según municipio de residencia."""
+    residents = data[['cod_municipio_residencia', 'municipio_residencia',
+                      'departamento_residencia']].copy()
+    residents['codigo'] = normalize_municipal_code(residents['cod_municipio_residencia'])
+    residents = residents.dropna(subset=['codigo'])
+
+    counts = residents.groupby('codigo', as_index=False).size().rename(columns={'size': 'Defunciones'})
+    names = (residents.dropna(subset=['municipio_residencia', 'departamento_residencia'])
+             .drop_duplicates('codigo')[['codigo', 'municipio_residencia', 'departamento_residencia']])
+
+    popdata = population[['cod_municipio', 'poblacion_total']].copy()
+    popdata['codigo'] = normalize_municipal_code(popdata['cod_municipio'])
+    popdata['poblacion_total'] = pd.to_numeric(popdata['poblacion_total'], errors='coerce')
+    popdata = popdata.dropna(subset=['codigo'])
+    if popdata['codigo'].duplicated().any():
+        raise ValueError('La tabla poblacional tiene códigos municipales duplicados; verificar datos antes de calcular tasas.')
+
+    rates = counts.merge(popdata[['codigo', 'poblacion_total']], on='codigo', how='inner', validate='one_to_one')
+    rates = rates.loc[rates['poblacion_total'].gt(0)].copy()
+    rates['Tasa por 100.000'] = rates['Defunciones'] / rates['poblacion_total'] * 100000.0
+    rates = rates.nsmallest(10, 'Tasa por 100.000').merge(names, on='codigo', how='left', validate='one_to_one')
+    rates['Lugar'] = (rates['municipio_residencia'].fillna(rates['codigo']) + ' · ' +
+                      rates['departamento_residencia'].fillna('Departamento sin identificar'))
+    return rates
+
+
 def age_category(v):
     if pd.isna(v):return 'Edad desconocida'
     for label,a,b in AGES:
@@ -87,6 +121,9 @@ if not FILE.exists():
     app.layout=html.Main([html.H1('Mortalidad en Colombia · 2019'),html.H2('Falta procesar los datos'),html.P('Ejecuta primero: .venv312/bin/python prepare_data.py'),html.P('Asegúrate de que los tres originales del DANE estén en la carpeta data/.')],className='shell')
 else:
     d=pd.read_csv(FILE,dtype={'dep':'string','mun':'string','cod_municipio':'string','sexo':'string','causa':'string','grupo_edad':'Int64'},low_memory=False)
+    for col in ['cod_municipio_residencia','municipio_residencia','departamento_residencia']:
+        if col not in d.columns:
+            raise ValueError(f'Falta la columna {col}. Ejecuta primero: .venv312/bin/python prepare_data.py')
     d['grupo_edad_etiqueta']=d.grupo_edad.map(age_category)
     d['sexo_etiqueta']=d.sexo.map({'1':'Hombres','2':'Mujeres','3':'Indeterminado','9':'Sin información'}).fillna('Sin información')
     for col in ['lat','lon','mes']:d[col]=pd.to_numeric(d[col],errors='coerce')
@@ -102,7 +139,7 @@ else:
         html.Section([html.Label('Departamento'),dcc.Dropdown(id='dep',options=[{'label':'Todos los departamentos','value':'TODOS'}]+[{'label':a,'value':a} for a in deps],value='TODOS',clearable=False),html.P('El filtro actualiza los gráficos mensuales, las causas, la distribución por sexo y los grupos de edad. Los rankings y el mapa conservan la perspectiva nacional.',className='note')],className='card'),
         html.Div([html.Section([html.Small('Defunciones analizadas'),html.Strong(f'{n:,}'.replace(',','.'))],className='metric'),html.Section([html.Small('Departamentos identificados'),html.Strong(str(d.dep.nunique()))],className='metric'),html.Section([html.Small('Año de referencia'),html.Strong('2019')],className='metric')],className='metrics'),
         html.Div([card('01 · Distribución geográfica por departamento',dcc.Graph(id='map'), 'Mapa por polígonos departamentales: color = número de defunciones registradas. Límites de referencia DANE (2025), no reconstrucción cartográfica de 2019.'),card('02 · Defunciones por mes',dcc.Graph(id='monthly'),'Evolución mensual del número de registros durante 2019.')],className='grid'),
-        html.Div([card('03 · Cinco municipios con más casos X95',dcc.Graph(id='x95'),'Solo casos cuyo código CIE-10 comienza por X95 (agresión con disparo de otras armas de fuego y las no especificadas). No equivale a todos los homicidios.'),card('04 · Diez menores tasas municipales de mortalidad (2019)',dcc.Graph(id='lowest'),'Tasa = defunciones registradas / población municipal 2019 × 100.000. Solo municipios con al menos un registro. Indicador exploratorio: validar si el territorio del microdato corresponde a ocurrencia o residencia antes de interpretarlo como riesgo de la población residente.')],className='grid'),
+        html.Div([card('03 · Cinco municipios con más casos X95',dcc.Graph(id='x95'),'Solo casos cuyo código CIE-10 comienza por X95 (agresión con disparo de otras armas de fuego y las no especificadas). No equivale a todos los homicidios.'),card('04 · Diez menores tasas municipales de mortalidad por residencia (2019)',dcc.Graph(id='lowest'),'Se seleccionan los 10 municipios con menor tasa calculada a partir de defunciones de residentes en Colombia y población municipal de 2019 (por 100.000 hab.). El tamaño de cada porción representa las defunciones de residentes dentro de esos 10 municipios, NO el porcentaje de la tasa. Se excluyen municipios sin muertes registradas y residencias no identificables; por tanto, no es un ranking exhaustivo de todos los municipios.')],className='grid'),
         card('05 · Diez principales causas básicas de muerte',dash_table.DataTable(id='topcauses',columns=[{'name':'Código CIE-10','id':'causa'},{'name':'Descripción','id':'nombre_causa'},{'name':'Casos','id':'casos'}],style_header={'fontWeight':'bold','backgroundColor':'#e8f1fa'},style_cell={'fontFamily':'Arial','textAlign':'left','padding':'12px','whiteSpace':'normal','height':'auto'},style_table={'overflowX':'auto'})),
         html.Div([card('06 · Defunciones por sexo y departamento',dcc.Graph(id='sex'),'Barras apiladas con sexo codificado según microdatos DANE.'),card('07 · Distribución por grupos de edad DANE',dcc.Graph(id='ages'),'Agrupación de GRU_ED1 según los intervalos establecidos en las instrucciones de la actividad.')],className='grid'),
         html.Footer('Fuente: DANE, Estadísticas Vitales — defunciones no fetales 2019, clasificación CIE-10 2019 y DIVIPOLA (versión 2026). Los códigos territoriales posteriores se consideran una referencia auxiliar, no una reconstrucción histórica.')
@@ -134,21 +171,19 @@ else:
         five['Lugar']=five.municipio+' · '+five.departamento
         violent=px.bar(five,x='Casos',y='Lugar',orientation='h',color='Casos',color_continuous_scale='Reds') if len(five) else blank('No se identificaron casos X95')
         violent.update_yaxes(categoryorder='total ascending')
-        lowest=d.groupby(['cod_municipio','municipio','departamento'],dropna=False).size().reset_index(name='Defunciones')
-        lowest['cod_municipio']=lowest.cod_municipio.astype('string').str.zfill(5)
-        lowest=lowest.merge(pop[['cod_municipio','poblacion_total']],how='left',on='cod_municipio',validate='many_to_one')
-        lowest=lowest[lowest.poblacion_total.gt(0)].copy()
-        # Convertir explícitamente a float: pandas puede producir dtype object con tipos anulables.
-        defunciones=pd.to_numeric(lowest['Defunciones'],errors='coerce').astype('float64')
-        poblacion=pd.to_numeric(lowest['poblacion_total'],errors='coerce').astype('float64')
-        lowest['Tasa por 100.000']=(defunciones/poblacion*100000).astype('float64')
-        lowest=lowest.dropna(subset=['Tasa por 100.000'])
-        lowest=lowest.nsmallest(10,'Tasa por 100.000')
-        lowest['Lugar']=lowest.municipio+' · '+lowest.departamento
-        pie=px.pie(lowest,names='Lugar',values='Tasa por 100.000',hole=.35,
-            hover_data=['Defunciones','poblacion_total'],labels={'Tasa por 100.000':'Tasa por 100.000','poblacion_total':'Población 2019'}) if len(lowest) else blank('Falta el archivo de población municipal 2019')
-        if len(lowest):
-            pie.update_traces(textinfo='none',hovertemplate='<b>%{label}</b><br>Tasa: %{value:.2f} por 100.000 hab.<extra></extra>')
+        # Tasas por residencia habitual: unir códigos DANE normalizados.
+        # Las porciones de la dona son defunciones; las tasas figuran en el hover.
+        lowest = lowest_residence_rates(d, pop)
+        if not lowest.empty:
+            pie=px.pie(lowest,names='Lugar',values='Defunciones',hole=.35,
+                       custom_data=['Tasa por 100.000','poblacion_total'],
+                       labels={'Defunciones':'Defunciones de residentes'})
+            pie.update_traces(textinfo='none',hovertemplate=(
+                '<b>%{label}</b><br>Defunciones de residentes: %{value}'
+                '<br>Tasa: %{customdata[0]:.2f} por 100.000 hab.'
+                '<br>Población 2019: %{customdata[1]:,.0f}<extra></extra>'))
+        else:
+            pie=blank('No hay datos válidos de residencia y población para calcular las tasas')
         causes=q.groupby(['causa','nombre_causa'],dropna=False).size().reset_index(name='casos').nlargest(10,'casos')
         causes['casos']=causes.casos.map(lambda x:f'{x:,}'.replace(',','.'))
         sex=q.groupby(['departamento','sexo_etiqueta']).size().reset_index(name='Defunciones')
