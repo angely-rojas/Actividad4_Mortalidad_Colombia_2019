@@ -1,0 +1,1124 @@
+﻿cod_municipio,departamento_dane,municipio_dane,anio,poblacion_total
+05001,Antioquia,Medellín,2019,2455336
+05002,Antioquia,Abejorral,2019,20612
+05004,Antioquia,Abriaquí,2019,2745
+05021,Antioquia,Alejandría,2019,4759
+05030,Antioquia,Amagá,2019,30729
+05031,Antioquia,Amalfi,2019,26501
+05034,Antioquia,Andes,2019,43759
+05036,Antioquia,Angelópolis,2019,5846
+05038,Antioquia,Angostura,2019,11687
+05040,Antioquia,Anorí,2019,18801
+05042,Antioquia,Santafé de Antioquia,2019,26520
+05044,Antioquia,Anzá,2019,7162
+05045,Antioquia,Apartadó,2019,121255
+05051,Antioquia,Arboletes,2019,29738
+05055,Antioquia,Argelia,2019,7798
+05059,Antioquia,Armenia,2019,5208
+05079,Antioquia,Barbosa,2019,55001
+05086,Antioquia,Belmira,2019,6072
+05088,Antioquia,Bello,2019,537451
+05091,Antioquia,Betania,2019,10446
+05093,Antioquia,Betulia,2019,15929
+05101,Antioquia,Ciudad Bolívar,2019,26377
+05107,Antioquia,Briceño,2019,8075
+05113,Antioquia,Buriticá,2019,9682
+05120,Antioquia,Cáceres,2019,29152
+05125,Antioquia,Caicedo,2019,8509
+05129,Antioquia,Caldas,2019,82011
+05134,Antioquia,Campamento,2019,9395
+05138,Antioquia,Cañasgordas,2019,15611
+05142,Antioquia,Caracolí,2019,4569
+05145,Antioquia,Caramanta,2019,4735
+05147,Antioquia,Carepa,2019,48374
+05148,Antioquia,El Carmen de Viboral,2019,61076
+05150,Antioquia,Carolina,2019,3956
+05154,Antioquia,Caucasia,2019,91003
+05172,Antioquia,Chigorodó,2019,57144
+05190,Antioquia,Cisneros,2019,9791
+05197,Antioquia,Cocorná,2019,15606
+05206,Antioquia,Concepción,2019,4874
+05209,Antioquia,Concordia,2019,21664
+05212,Antioquia,Copacabana,2019,80676
+05234,Antioquia,Dabeiba,2019,23418
+05237,Antioquia,Donmatías,2019,19033
+05240,Antioquia,Ebéjico,2019,12363
+05250,Antioquia,El Bagre,2019,52651
+05264,Antioquia,Entrerríos,2019,11425
+05266,Antioquia,Envigado,2019,235397
+05282,Antioquia,Fredonia,2019,24869
+05284,Antioquia,Frontino,2019,21018
+05306,Antioquia,Giraldo,2019,5716
+05308,Antioquia,Girardota,2019,54202
+05310,Antioquia,Gómez Plata,2019,9878
+05313,Antioquia,Granada,2019,10204
+05315,Antioquia,Guadalupe,2019,6662
+05318,Antioquia,Guarne,2019,56977
+05321,Antioquia,Guatapé,2019,8568
+05347,Antioquia,Heliconia,2019,5415
+05353,Antioquia,Hispania,2019,5551
+05360,Antioquia,Itagüí,2019,283136
+05361,Antioquia,Ituango,2019,27640
+05364,Antioquia,Jardín,2019,14696
+05368,Antioquia,Jericó,2019,13782
+05376,Antioquia,La Ceja,2019,65950
+05380,Antioquia,La Estrella,2019,73966
+05390,Antioquia,La Pintada,2019,8164
+05400,Antioquia,La Unión,2019,21871
+05411,Antioquia,Liborina,2019,10243
+05425,Antioquia,Maceo,2019,8369
+05440,Antioquia,Marinilla,2019,66120
+05467,Antioquia,Montebello,2019,6719
+05475,Antioquia,Murindó,2019,5080
+05480,Antioquia,Mutatá,2019,14048
+05483,Antioquia,Nariño,2019,10335
+05490,Antioquia,Necoclí,2019,42626
+05495,Antioquia,Nechí,2019,26385
+05501,Antioquia,Olaya,2019,3200
+05541,Antioquia,Peñol,2019,21536
+05543,Antioquia,Peque,2019,8257
+05576,Antioquia,Pueblorrico,2019,8754
+05579,Antioquia,Puerto Berrío,2019,39202
+05585,Antioquia,Puerto Nare,2019,14651
+05591,Antioquia,Puerto Triunfo,2019,18551
+05604,Antioquia,Remedios,2019,29213
+05607,Antioquia,Retiro,2019,24136
+05615,Antioquia,Rionegro,2019,138479
+05628,Antioquia,Sabanalarga,2019,9207
+05631,Antioquia,Sabaneta,2019,86724
+05642,Antioquia,Salgar,2019,18477
+05647,Antioquia,San Andrés de Cuerquía,2019,7307
+05649,Antioquia,San Carlos,2019,16423
+05652,Antioquia,San Francisco,2019,5736
+05656,Antioquia,San Jerónimo,2019,15840
+05658,Antioquia,San José de La Montaña,2019,3698
+05659,Antioquia,San Juan de Urabá,2019,20138
+05660,Antioquia,San Luis,2019,13220
+05664,Antioquia,San Pedro de Los Milagros,2019,22073
+05665,Antioquia,San Pedro de Urabá,2019,31274
+05667,Antioquia,San Rafael,2019,15999
+05670,Antioquia,San Roque,2019,22122
+05674,Antioquia,San Vicente,2019,22659
+05679,Antioquia,Santa Bárbara,2019,27302
+05686,Antioquia,Santa Rosa de Osos,2019,36987
+05690,Antioquia,Santo Domingo,2019,12661
+05697,Antioquia,El Santuario,2019,36100
+05736,Antioquia,Segovia,2019,38046
+05756,Antioquia,Sonsón,2019,36423
+05761,Antioquia,Sopetrán,2019,15332
+05789,Antioquia,Támesis,2019,16426
+05790,Antioquia,Tarazá,2019,27375
+05792,Antioquia,Tarso,2019,6240
+05809,Antioquia,Titiribí,2019,10941
+05819,Antioquia,Toledo,2019,5011
+05837,Antioquia,Turbo,2019,126132
+05842,Antioquia,Uramita,2019,7023
+05847,Antioquia,Urrao,2019,30463
+05854,Antioquia,Valdivia,2019,14068
+05856,Antioquia,Valparaíso,2019,6553
+05858,Antioquia,Vegachí,2019,11864
+05861,Antioquia,Venecia,2019,11781
+05873,Antioquia,Vigía del Fuerte,2019,9488
+05885,Antioquia,Yalí,2019,7653
+05887,Antioquia,Yarumal,2019,41595
+05890,Antioquia,Yolombó,2019,23072
+05893,Antioquia,Yondó,2019,19531
+05895,Antioquia,Zaragoza,2019,25015
+08001,Atlántico,Barranquilla,2019,1230835
+08078,Atlántico,Baranoa,2019,64550
+08137,Atlántico,Campo de La Cruz,2019,23641
+08141,Atlántico,Candelaria,2019,16579
+08296,Atlántico,Galapa,2019,62945
+08372,Atlántico,Juan de Acosta,2019,21596
+08421,Atlántico,Luruaco,2019,29047
+08433,Atlántico,Malambo,2019,133000
+08436,Atlántico,Manatí,2019,20521
+08520,Atlántico,Palmar de Varela,2019,30007
+08549,Atlántico,Piojó,2019,6830
+08558,Atlántico,Polonuevo,2019,18749
+08560,Atlántico,Ponedera,2019,24518
+08573,Atlántico,Puerto Colombia,2019,52086
+08606,Atlántico,Repelón,2019,26977
+08634,Atlántico,Sabanagrande,2019,33538
+08638,Atlántico,Sabanalarga,2019,95541
+08675,Atlántico,Santa Lucía,2019,16629
+08685,Atlántico,Santo Tomás,2019,30976
+08758,Atlántico,Soledad,2019,627273
+08770,Atlántico,Suan,2019,12350
+08832,Atlántico,Tubará,2019,17949
+08849,Atlántico,Usiacurí,2019,12771
+11001,"Bogotá, D.C.","Bogotá, D.C.",2019,7533202
+13001,Bolívar,Cartagena de Indias,2019,984671
+13006,Bolívar,Achí,2019,24967
+13030,Bolívar,Altos del Rosario,2019,11186
+13042,Bolívar,Arenal,2019,7634
+13052,Bolívar,Arjona,2019,70362
+13062,Bolívar,Arroyohondo,2019,8332
+13074,Bolívar,Barranco de Loba,2019,15404
+13140,Bolívar,Calamar,2019,23019
+13160,Bolívar,Cantagallo,2019,8371
+13188,Bolívar,Cicuco,2019,13882
+13212,Bolívar,Córdoba,2019,16431
+13222,Bolívar,Clemencia,2019,14791
+13244,Bolívar,El Carmen de Bolívar,2019,71603
+13248,Bolívar,El Guamo,2019,8865
+13268,Bolívar,El Peñón,2019,7819
+13300,Bolívar,Hatillo de Loba,2019,12575
+13430,Bolívar,Magangué,2019,136673
+13433,Bolívar,Mahates,2019,28535
+13440,Bolívar,Margarita,2019,10920
+13442,Bolívar,María La Baja,2019,46894
+13458,Bolívar,Montecristo,2019,16484
+13468,Bolívar,Mompós,2019,45408
+13473,Bolívar,Morales,2019,23096
+13490,Bolívar,Norosí,2019,9917
+13549,Bolívar,Pinillos,2019,24665
+13580,Bolívar,Regidor,2019,6955
+13600,Bolívar,Río Viejo,2019,10989
+13620,Bolívar,San Cristóbal,2019,8355
+13647,Bolívar,San Estanislao,2019,18819
+13650,Bolívar,San Fernando,2019,12677
+13654,Bolívar,San Jacinto,2019,24584
+13655,Bolívar,San Jacinto del Cauca,2019,10108
+13657,Bolívar,San Juan Nepomuceno,2019,37936
+13667,Bolívar,San Martín de Loba,2019,15137
+13670,Bolívar,San Pablo,2019,27641
+13673,Bolívar,Santa Catalina,2019,14589
+13683,Bolívar,Santa Rosa,2019,21326
+13688,Bolívar,Santa Rosa del Sur,2019,32969
+13744,Bolívar,Simití,2019,18265
+13760,Bolívar,Soplaviento,2019,11054
+13780,Bolívar,Talaigua Nuevo,2019,13498
+13810,Bolívar,Tiquisio,2019,18241
+13836,Bolívar,Turbaco,2019,109191
+13838,Bolívar,Turbaná,2019,16653
+13873,Bolívar,Villanueva,2019,24732
+13894,Bolívar,Zambrano,2019,12189
+15001,Boyacá,Tunja,2019,176904
+15022,Boyacá,Almeida,2019,1886
+15047,Boyacá,Aquitania,2019,15378
+15051,Boyacá,Arcabuco,2019,5935
+15087,Boyacá,Belén,2019,7529
+15090,Boyacá,Berbeo,2019,1600
+15092,Boyacá,Betéitiva,2019,1922
+15097,Boyacá,Boavita,2019,5087
+15104,Boyacá,Boyacá,2019,5107
+15106,Boyacá,Briceño,2019,2210
+15109,Boyacá,Buenavista,2019,4419
+15114,Boyacá,Busbanzá,2019,1154
+15131,Boyacá,Caldas,2019,3087
+15135,Boyacá,Campohermoso,2019,3137
+15162,Boyacá,Cerinza,2019,3704
+15172,Boyacá,Chinavita,2019,3208
+15176,Boyacá,Chiquinquirá,2019,56930
+15180,Boyacá,Chiscas,2019,4003
+15183,Boyacá,Chita,2019,8064
+15185,Boyacá,Chitaraque,2019,5852
+15187,Boyacá,Chivatá,2019,2786
+15189,Boyacá,Ciénega,2019,4624
+15204,Boyacá,Cómbita,2019,12995
+15212,Boyacá,Coper,2019,3590
+15215,Boyacá,Corrales,2019,2515
+15218,Boyacá,Covarachía,2019,2815
+15223,Boyacá,Cubará,2019,10870
+15224,Boyacá,Cucaita,2019,3738
+15226,Boyacá,Cuítiva,2019,1786
+15232,Boyacá,Chíquiza,2019,4667
+15236,Boyacá,Chivor,2019,2511
+15238,Boyacá,Duitama,2019,125538
+15244,Boyacá,El Cocuy,2019,4232
+15248,Boyacá,El Espino,2019,3083
+15272,Boyacá,Firavitoba,2019,6743
+15276,Boyacá,Floresta,2019,3267
+15293,Boyacá,Gachantivá,2019,2800
+15296,Boyacá,Gámeza,2019,4809
+15299,Boyacá,Garagoa,2019,18265
+15317,Boyacá,Guacamayas,2019,1860
+15322,Boyacá,Guateque,2019,10887
+15325,Boyacá,Guayatá,2019,3425
+15332,Boyacá,Güicán de La Sierra,2019,4282
+15362,Boyacá,Iza,2019,1952
+15367,Boyacá,Jenesano,2019,7205
+15368,Boyacá,Jericó,2019,3929
+15377,Boyacá,Labranzagrande,2019,3581
+15380,Boyacá,La Capilla,2019,2673
+15401,Boyacá,La Victoria,2019,1116
+15403,Boyacá,La Uvita,2019,2980
+15407,Boyacá,Villa de Leyva,2019,16673
+15425,Boyacá,Macanal,2019,5021
+15442,Boyacá,Maripí,2019,5744
+15455,Boyacá,Miraflores,2019,8915
+15464,Boyacá,Mongua,2019,4629
+15466,Boyacá,Monguí,2019,4258
+15469,Boyacá,Moniquirá,2019,22830
+15476,Boyacá,Motavita,2019,5508
+15480,Boyacá,Muzo,2019,8568
+15491,Boyacá,Nobsa,2019,16159
+15494,Boyacá,Nuevo Colón,2019,5126
+15500,Boyacá,Oicatá,2019,2827
+15507,Boyacá,Otanche,2019,8041
+15511,Boyacá,Pachavita,2019,2441
+15514,Boyacá,Páez,2019,3286
+15516,Boyacá,Paipa,2019,34414
+15518,Boyacá,Pajarito,2019,2371
+15522,Boyacá,Panqueba,2019,1715
+15531,Boyacá,Pauna,2019,7199
+15533,Boyacá,Paya,2019,2623
+15537,Boyacá,Paz de Río,2019,4311
+15542,Boyacá,Pesca,2019,6864
+15550,Boyacá,Pisba,2019,1777
+15572,Boyacá,Puerto Boyacá,2019,47185
+15580,Boyacá,Quípama,2019,4899
+15599,Boyacá,Ramiriquí,2019,9916
+15600,Boyacá,Ráquira,2019,7883
+15621,Boyacá,Rondón,2019,2413
+15632,Boyacá,Saboyá,2019,13662
+15638,Boyacá,Sáchica,2019,5601
+15646,Boyacá,Samacá,2019,18478
+15660,Boyacá,San Eduardo,2019,1709
+15664,Boyacá,San José de Pare,2019,4958
+15667,Boyacá,San Luis de Gaceno,2019,5470
+15673,Boyacá,San Mateo,2019,3334
+15676,Boyacá,San Miguel de Sema,2019,3016
+15681,Boyacá,San Pablo de Borbur,2019,6597
+15686,Boyacá,Santana,2019,7601
+15690,Boyacá,Santa María,2019,3597
+15693,Boyacá,Santa Rosa de Viterbo,2019,13194
+15696,Boyacá,Santa Sofía,2019,3211
+15720,Boyacá,Sativanorte,2019,2198
+15723,Boyacá,Sativasur,2019,1085
+15740,Boyacá,Siachoque,2019,6720
+15753,Boyacá,Soatá,2019,9160
+15755,Boyacá,Socotá,2019,7304
+15757,Boyacá,Socha,2019,8046
+15759,Boyacá,Sogamoso,2019,130006
+15761,Boyacá,Somondoco,2019,2897
+15762,Boyacá,Sora,2019,3040
+15763,Boyacá,Sotaquirá,2019,8128
+15764,Boyacá,Soracá,2019,5977
+15774,Boyacá,Susacón,2019,2720
+15776,Boyacá,Sutamarchán,2019,6134
+15778,Boyacá,Sutatenza,2019,4222
+15790,Boyacá,Tasco,2019,5894
+15798,Boyacá,Tenza,2019,3811
+15804,Boyacá,Tibaná,2019,9030
+15806,Boyacá,Tibasosa,2019,13044
+15808,Boyacá,Tinjacá,2019,3301
+15810,Boyacá,Tipacoque,2019,3297
+15814,Boyacá,Toca,2019,8834
+15816,Boyacá,Togüí,2019,4342
+15820,Boyacá,Tópaga,2019,3625
+15822,Boyacá,Tota,2019,5157
+15832,Boyacá,Tununguá,2019,1560
+15835,Boyacá,Turmequé,2019,6056
+15837,Boyacá,Tuta,2019,8261
+15839,Boyacá,Tutazá,2019,2034
+15842,Boyacá,Úmbita,2019,7534
+15861,Boyacá,Ventaquemada,2019,15855
+15879,Boyacá,Viracachá,2019,2840
+15897,Boyacá,Zetaquira,2019,4654
+17001,Caldas,Manizales,2019,440570
+17013,Caldas,Aguadas,2019,23012
+17042,Caldas,Anserma,2019,36669
+17050,Caldas,Aranzazu,2019,10659
+17088,Caldas,Belalcázar,2019,10711
+17174,Caldas,Chinchiná,2019,51351
+17272,Caldas,Filadelfia,2019,11545
+17380,Caldas,La Dorada,2019,72120
+17388,Caldas,La Merced,2019,6021
+17433,Caldas,Manzanares,2019,18142
+17442,Caldas,Marmato,2019,9125
+17444,Caldas,Marquetalia,2019,13426
+17446,Caldas,Marulanda,2019,2647
+17486,Caldas,Neira,2019,21264
+17495,Caldas,Norcasia,2019,6075
+17513,Caldas,Pácora,2019,15532
+17524,Caldas,Palestina,2019,15816
+17541,Caldas,Pensilvania,2019,20221
+17614,Caldas,Riosucio,2019,51621
+17616,Caldas,Risaralda,2019,11010
+17653,Caldas,Salamina,2019,19612
+17662,Caldas,Samaná,2019,20812
+17665,Caldas,San José,2019,4917
+17777,Caldas,Supía,2019,29338
+17867,Caldas,Victoria,2019,10373
+17873,Caldas,Villamaría,2019,66223
+17877,Caldas,Viterbo,2019,12774
+18001,Caquetá,Florencia,2019,170885
+18029,Caquetá,Albania,2019,4719
+18094,Caquetá,Belén de Los Andaquíes,2019,11102
+18150,Caquetá,Cartagena del Chairá,2019,30785
+18205,Caquetá,Curillo,2019,7617
+18247,Caquetá,El Doncello,2019,19390
+18256,Caquetá,El Paujíl,2019,18215
+18410,Caquetá,La Montañita,2019,14865
+18460,Caquetá,Milán,2019,9848
+18479,Caquetá,Morelia,2019,3711
+18592,Caquetá,Puerto Rico,2019,26687
+18610,Caquetá,San José del Fragua,2019,12889
+18753,Caquetá,San Vicente del Caguán,2019,51111
+18756,Caquetá,Solano,2019,11108
+18785,Caquetá,Solita,2019,6247
+18860,Caquetá,Valparaíso,2019,6932
+19001,Cauca,Popayán,2019,324594
+19022,Cauca,Almaguer,2019,18460
+19050,Cauca,Argelia,2019,26389
+19075,Cauca,Balboa,2019,21302
+19100,Cauca,Bolívar,2019,38082
+19110,Cauca,Buenos Aires,2019,31732
+19130,Cauca,Cajibío,2019,42670
+19137,Cauca,Caldono,2019,40637
+19142,Cauca,Caloto,2019,30344
+19212,Cauca,Corinto,2019,25684
+19256,Cauca,El Tambo,2019,54544
+19290,Cauca,Florencia,2019,5222
+19300,Cauca,Guachené,2019,19821
+19318,Cauca,Guapi,2019,27898
+19355,Cauca,Inzá,2019,28950
+19364,Cauca,Jambaló,2019,18074
+19392,Cauca,La Sierra,2019,10822
+19397,Cauca,La Vega,2019,24495
+19418,Cauca,López de Micay,2019,18744
+19450,Cauca,Mercaderes,2019,23195
+19455,Cauca,Miranda,2019,31661
+19473,Cauca,Morales,2019,39859
+19513,Cauca,Padilla,2019,10069
+19517,Cauca,Páez,2019,46971
+19532,Cauca,Patía,2019,37225
+19533,Cauca,Piamonte,2019,8967
+19548,Cauca,Piendamó - Tunía,2019,41239
+19573,Cauca,Puerto Tejada,2019,42120
+19585,Cauca,Puracé,2019,17427
+19622,Cauca,Rosas,2019,11572
+19693,Cauca,San Sebastián,2019,10925
+19698,Cauca,Santander de Quilichao,2019,113322
+19701,Cauca,Santa Rosa,2019,5327
+19743,Cauca,Silvia,2019,37808
+19760,Cauca,Sotará Paispamba,2019,14048
+19780,Cauca,Suárez,2019,32868
+19785,Cauca,Sucre,2019,9532
+19807,Cauca,Timbío,2019,36017
+19809,Cauca,Timbiquí,2019,26614
+19821,Cauca,Toribío,2019,35925
+19824,Cauca,Totoró,2019,25005
+19845,Cauca,Villa Rica,2019,21217
+20001,Cesar,Valledupar,2019,512113
+20011,Cesar,Aguachica,2019,114220
+20013,Cesar,Agustín Codazzi,2019,62500
+20032,Cesar,Astrea,2019,20675
+20045,Cesar,Becerril,2019,22698
+20060,Cesar,Bosconia,2019,41590
+20175,Cesar,Chimichagua,2019,35187
+20178,Cesar,Chiriguaná,2019,28773
+20228,Cesar,Curumaní,2019,38980
+20238,Cesar,El Copey,2019,31220
+20250,Cesar,El Paso,2019,39469
+20295,Cesar,Gamarra,2019,15328
+20310,Cesar,González,2019,4501
+20383,Cesar,La Gloria,2019,17767
+20400,Cesar,La Jagua de Ibirico,2019,49441
+20443,Cesar,Manaure Balcón del Cesar,2019,10352
+20517,Cesar,Pailitas,2019,19153
+20550,Cesar,Pelaya,2019,21468
+20570,Cesar,Pueblo Bello,2019,28474
+20614,Cesar,Río de Oro,2019,17412
+20621,Cesar,La Paz,2019,28842
+20710,Cesar,San Alberto,2019,27246
+20750,Cesar,San Diego,2019,19941
+20770,Cesar,San Martín,2019,28024
+20787,Cesar,Tamalameque,2019,15801
+23001,Córdoba,Montería,2019,503974
+23068,Córdoba,Ayapel,2019,47596
+23079,Córdoba,Buenavista,2019,21348
+23090,Córdoba,Canalete,2019,15569
+23162,Córdoba,Cereté,2019,108346
+23168,Córdoba,Chimá,2019,17910
+23182,Córdoba,Chinú,2019,48821
+23189,Córdoba,Ciénaga de Oro,2019,59879
+23300,Córdoba,Cotorra,2019,19496
+23350,Córdoba,La Apartada,2019,15152
+23417,Córdoba,Lorica,2019,115527
+23419,Córdoba,Los Córdobas,2019,18882
+23464,Córdoba,Momil,2019,20147
+23466,Córdoba,Montelíbano,2019,82839
+23500,Córdoba,Moñitos,2019,30497
+23555,Córdoba,Planeta Rica,2019,64786
+23570,Córdoba,Pueblo Nuevo,2019,36160
+23574,Córdoba,Puerto Escondido,2019,23901
+23580,Córdoba,Puerto Libertador,2019,42662
+23586,Córdoba,Purísima de La Concepción,2019,17607
+23660,Córdoba,Sahagún,2019,109807
+23670,Córdoba,San Andrés Sotavento,2019,49364
+23672,Córdoba,San Antero,2019,34867
+23675,Córdoba,San Bernardo del Viento,2019,37813
+23678,Córdoba,San Carlos,2019,27364
+23682,Córdoba,San José de Uré,2019,13695
+23686,Córdoba,San Pelayo,2019,53060
+23807,Córdoba,Tierralta,2019,94016
+23815,Córdoba,Tuchín,2019,54166
+23855,Córdoba,Valencia,2019,35988
+25001,Cundinamarca,Agua de Dios,2019,11730
+25019,Cundinamarca,Albán,2019,6514
+25035,Cundinamarca,Anapoima,2019,14923
+25040,Cundinamarca,Anolaima,2019,13923
+25053,Cundinamarca,Arbeláez,2019,10882
+25086,Cundinamarca,Beltrán,2019,1773
+25095,Cundinamarca,Bituima,2019,2463
+25099,Cundinamarca,Bojacá,2019,10145
+25120,Cundinamarca,Cabrera,2019,4779
+25123,Cundinamarca,Cachipay,2019,10023
+25126,Cundinamarca,Cajicá,2019,96058
+25148,Cundinamarca,Caparrapí,2019,12371
+25151,Cundinamarca,Cáqueza,2019,17283
+25154,Cundinamarca,Carmen de Carupa,2019,7606
+25168,Cundinamarca,Chaguaní,2019,4244
+25175,Cundinamarca,Chía,2019,145682
+25178,Cundinamarca,Chipaque,2019,9575
+25181,Cundinamarca,Choachí,2019,11033
+25183,Cundinamarca,Chocontá,2019,20852
+25200,Cundinamarca,Cogua,2019,22536
+25214,Cundinamarca,Cota,2019,38327
+25224,Cundinamarca,Cucunubá,2019,7696
+25245,Cundinamarca,El Colegio,2019,24378
+25258,Cundinamarca,El Peñón,2019,4666
+25260,Cundinamarca,El Rosal,2019,23038
+25269,Cundinamarca,Facatativá,2019,144447
+25279,Cundinamarca,Fómeque,2019,12059
+25281,Cundinamarca,Fosca,2019,5734
+25286,Cundinamarca,Funza,2019,98143
+25288,Cundinamarca,Fúquene,2019,4877
+25290,Cundinamarca,Fusagasugá,2019,141657
+25293,Cundinamarca,Gachalá,2019,4441
+25295,Cundinamarca,Gachancipá,2019,17757
+25297,Cundinamarca,Gachetá,2019,8471
+25299,Cundinamarca,Gama,2019,3108
+25307,Cundinamarca,Girardot,2019,101575
+25312,Cundinamarca,Granada,2019,7239
+25317,Cundinamarca,Guachetá,2019,13543
+25320,Cundinamarca,Guaduas,2019,30678
+25322,Cundinamarca,Guasca,2019,15717
+25324,Cundinamarca,Guataquí,2019,2898
+25326,Cundinamarca,Guatavita,2019,6338
+25328,Cundinamarca,Guayabal de Síquima,2019,4518
+25335,Cundinamarca,Guayabetal,2019,6353
+25339,Cundinamarca,Gutiérrez,2019,3423
+25368,Cundinamarca,Jerusalén,2019,2249
+25372,Cundinamarca,Junín,2019,5667
+25377,Cundinamarca,La Calera,2019,36418
+25386,Cundinamarca,La Mesa,2019,33492
+25394,Cundinamarca,La Palma,2019,9529
+25398,Cundinamarca,La Peña,2019,5913
+25402,Cundinamarca,La Vega,2019,17322
+25407,Cundinamarca,Lenguazaque,2019,10153
+25426,Cundinamarca,Machetá,2019,6132
+25430,Cundinamarca,Madrid,2019,118034
+25436,Cundinamarca,Manta,2019,3705
+25438,Cundinamarca,Medina,2019,8126
+25473,Cundinamarca,Mosquera,2019,138336
+25483,Cundinamarca,Nariño,2019,2380
+25486,Cundinamarca,Nemocón,2019,13434
+25488,Cundinamarca,Nilo,2019,10872
+25489,Cundinamarca,Nimaima,2019,3580
+25491,Cundinamarca,Nocaima,2019,6008
+25506,Cundinamarca,Venecia,2019,4281
+25513,Cundinamarca,Pacho,2019,24608
+25518,Cundinamarca,Paime,2019,4108
+25524,Cundinamarca,Pandi,2019,4996
+25530,Cundinamarca,Paratebueno,2019,8465
+25535,Cundinamarca,Pasca,2019,9185
+25572,Cundinamarca,Puerto Salgar,2019,15548
+25580,Cundinamarca,Pulí,2019,3403
+25592,Cundinamarca,Quebradanegra,2019,4738
+25594,Cundinamarca,Quetame,2019,5080
+25596,Cundinamarca,Quipile,2019,6184
+25599,Cundinamarca,Apulo,2019,8289
+25612,Cundinamarca,Ricaurte,2019,13317
+25645,Cundinamarca,San Antonio del Tequendama,2019,11853
+25649,Cundinamarca,San Bernardo,2019,8554
+25653,Cundinamarca,San Cayetano,2019,4828
+25658,Cundinamarca,San Francisco,2019,11056
+25662,Cundinamarca,San Juan de Rioseco,2019,8242
+25718,Cundinamarca,Sasaima,2019,10787
+25736,Cundinamarca,Sesquilé,2019,11628
+25740,Cundinamarca,Sibaté,2019,37338
+25743,Cundinamarca,Silvania,2019,21853
+25745,Cundinamarca,Simijaca,2019,13129
+25754,Cundinamarca,Soacha,2019,692774
+25758,Cundinamarca,Sopó,2019,29252
+25769,Cundinamarca,Subachoque,2019,16048
+25772,Cundinamarca,Suesca,2019,17399
+25777,Cundinamarca,Supatá,2019,5244
+25779,Cundinamarca,Susa,2019,6469
+25781,Cundinamarca,Sutatausa,2019,6013
+25785,Cundinamarca,Tabio,2019,21850
+25793,Cundinamarca,Tausa,2019,8122
+25797,Cundinamarca,Tena,2019,9770
+25799,Cundinamarca,Tenjo,2019,22391
+25805,Cundinamarca,Tibacuy,2019,4377
+25807,Cundinamarca,Tibirita,2019,3176
+25815,Cundinamarca,Tocaima,2019,15830
+25817,Cundinamarca,Tocancipá,2019,41456
+25823,Cundinamarca,Topaipí,2019,4104
+25839,Cundinamarca,Ubalá,2019,7714
+25841,Cundinamarca,Ubaque,2019,6734
+25843,Cundinamarca,Villa de San Diego de Ubaté,2019,43616
+25845,Cundinamarca,Une,2019,6927
+25851,Cundinamarca,Útica,2019,4264
+25862,Cundinamarca,Vergara,2019,6802
+25867,Cundinamarca,Vianí,2019,4387
+25871,Cundinamarca,Villagómez,2019,1752
+25873,Cundinamarca,Villapinzón,2019,17358
+25875,Cundinamarca,Villeta,2019,27386
+25878,Cundinamarca,Viotá,2019,13310
+25885,Cundinamarca,Yacopí,2019,12110
+25898,Cundinamarca,Zipacón,2019,4659
+25899,Cundinamarca,Zipaquirá,2019,142731
+27001,Chocó,Quibdó,2019,131208
+27006,Chocó,Acandí,2019,14371
+27025,Chocó,Alto Baudó,2019,27837
+27050,Chocó,Atrato,2019,6125
+27073,Chocó,Bagadó,2019,11257
+27075,Chocó,Bahía Solano,2019,10245
+27077,Chocó,Bajo Baudó,2019,30849
+27099,Chocó,Bojayá,2019,12238
+27135,Chocó,El Cantón del San Pablo,2019,6176
+27150,Chocó,Carmen del Darién,2019,19111
+27160,Chocó,Cértegui,2019,5700
+27205,Chocó,Condoto,2019,12684
+27245,Chocó,El Carmen de Atrato,2019,8263
+27250,Chocó,El Litoral del San Juan,2019,22466
+27361,Chocó,Istmina,2019,31505
+27372,Chocó,Juradó,2019,6960
+27413,Chocó,Lloró,2019,9879
+27425,Chocó,Medio Atrato,2019,10761
+27430,Chocó,Medio Baudó,2019,15441
+27450,Chocó,Medio San Juan,2019,10662
+27491,Chocó,Nóvita,2019,9281
+27493,Chocó,Nuevo Belén de Bajirá,2019,0
+27495,Chocó,Nuquí,2019,16733
+27580,Chocó,Río Iró,2019,5516
+27600,Chocó,Río Quito,2019,8262
+27615,Chocó,Riosucio,2019,55472
+27660,Chocó,San José del Palmar,2019,5115
+27745,Chocó,Sipí,2019,3199
+27787,Chocó,Tadó,2019,18206
+27800,Chocó,Unguía,2019,12913
+27810,Chocó,Unión Panamericana,2019,6885
+41001,Huila,Neiva,2019,364508
+41006,Huila,Acevedo,2019,24993
+41013,Huila,Agrado,2019,8897
+41016,Huila,Aipe,2019,16346
+41020,Huila,Algeciras,2019,22560
+41026,Huila,Altamira,2019,4358
+41078,Huila,Baraya,2019,8330
+41132,Huila,Campoalegre,2019,31278
+41206,Huila,Colombia,2019,7354
+41244,Huila,Elías,2019,4294
+41298,Huila,Garzón,2019,73131
+41306,Huila,Gigante,2019,24490
+41319,Huila,Guadalupe,2019,18026
+41349,Huila,Hobo,2019,7411
+41357,Huila,Íquira,2019,9331
+41359,Huila,Isnos,2019,25437
+41378,Huila,La Argentina,2019,13047
+41396,Huila,La Plata,2019,62181
+41483,Huila,Nátaga,2019,6563
+41503,Huila,Oporapa,2019,11750
+41518,Huila,Paicol,2019,6751
+41524,Huila,Palermo,2019,26395
+41530,Huila,Palestina,2019,11294
+41548,Huila,Pital,2019,13957
+41551,Huila,Pitalito,2019,127235
+41615,Huila,Rivera,2019,25034
+41660,Huila,Saladoblanco,2019,10499
+41668,Huila,San Agustín,2019,33500
+41676,Huila,Santa María,2019,10486
+41770,Huila,Suaza,2019,22525
+41791,Huila,Tarqui,2019,17665
+41797,Huila,Tesalia,2019,10947
+41799,Huila,Tello,2019,11936
+41801,Huila,Teruel,2019,8103
+41807,Huila,Timaná,2019,22069
+41872,Huila,Villavieja,2019,7316
+41885,Huila,Yaguará,2019,7789
+44001,La Guajira,Riohacha,2019,193478
+44035,La Guajira,Albania,2019,30566
+44078,La Guajira,Barrancas,2019,37327
+44090,La Guajira,Dibulla,2019,40063
+44098,La Guajira,Distracción,2019,13394
+44110,La Guajira,El Molino,2019,7317
+44279,La Guajira,Fonseca,2019,44952
+44378,La Guajira,Hatonuevo,2019,20776
+44420,La Guajira,La Jagua del Pilar,2019,3631
+44430,La Guajira,Maicao,2019,178565
+44560,La Guajira,Manaure,2019,86496
+44650,La Guajira,San Juan del Cesar,2019,49190
+44847,La Guajira,Uribia,2019,171943
+44855,La Guajira,Urumita,2019,11080
+44874,La Guajira,Villanueva,2019,29284
+47001,Magdalena,Santa Marta,2019,515745
+47030,Magdalena,Algarrobo,2019,16190
+47053,Magdalena,Aracataca,2019,41046
+47058,Magdalena,Ariguaní,2019,30774
+47161,Magdalena,Cerro de San Antonio,2019,10201
+47170,Magdalena,Chibolo,2019,22661
+47189,Magdalena,Ciénaga,2019,123851
+47205,Magdalena,Concordia,2019,10691
+47245,Magdalena,El Banco,2019,67736
+47258,Magdalena,El Piñón,2019,23289
+47268,Magdalena,El Retén,2019,20133
+47288,Magdalena,Fundación,2019,68506
+47318,Magdalena,Guamal,2019,27303
+47460,Magdalena,Nueva Granada,2019,20274
+47541,Magdalena,Pedraza,2019,9422
+47545,Magdalena,Pijiño del Carmen,2019,12533
+47551,Magdalena,Pivijay,2019,38080
+47555,Magdalena,Plato,2019,63914
+47570,Magdalena,Puebloviejo,2019,30925
+47605,Magdalena,Remolino,2019,11863
+47660,Magdalena,Sabanas de San Ángel,2019,15933
+47675,Magdalena,Salamina,2019,11100
+47692,Magdalena,San Sebastián de Buenavista,2019,20139
+47703,Magdalena,San Zenón,2019,12219
+47707,Magdalena,Santa Ana,2019,26061
+47720,Magdalena,Santa Bárbara de Pinto,2019,10736
+47745,Magdalena,Sitionuevo,2019,27593
+47798,Magdalena,Tenerife,2019,13504
+47960,Magdalena,Zapayán,2019,10161
+47980,Magdalena,Zona Bananera,2019,71479
+50001,Meta,Villavicencio,2019,542056
+50006,Meta,Acacías,2019,90779
+50110,Meta,Barranca de Upía,2019,6690
+50124,Meta,Cabuyaro,2019,6229
+50150,Meta,Castilla la Nueva,2019,14878
+50223,Meta,Cubarral,2019,7073
+50226,Meta,Cumaral,2019,23254
+50245,Meta,El Calvario,2019,1794
+50251,Meta,El Castillo,2019,8090
+50270,Meta,El Dorado,2019,3948
+50287,Meta,Fuente de Oro,2019,12313
+50313,Meta,Granada,2019,70111
+50318,Meta,Guamal,2019,14538
+50325,Meta,Mapiripán,2019,7068
+50330,Meta,Mesetas,2019,11301
+50350,Meta,La Macarena,2019,27438
+50370,Meta,Uribe,2019,9386
+50400,Meta,Lejanías,2019,11631
+50450,Meta,Puerto Concordia,2019,8459
+50568,Meta,Puerto Gaitán,2019,43661
+50573,Meta,Puerto López,2019,30853
+50577,Meta,Puerto Lleras,2019,10505
+50590,Meta,Puerto Rico,2019,13145
+50606,Meta,Restrepo,2019,18855
+50680,Meta,San Carlos de Guaroa,2019,12714
+50683,Meta,San Juan de Arama,2019,9195
+50686,Meta,San Juanito,2019,1342
+50689,Meta,San Martín,2019,27123
+50711,Meta,Vistahermosa,2019,17926
+52001,Nariño,Pasto,2019,395380
+52019,Nariño,Albán,2019,9621
+52022,Nariño,Aldana,2019,7473
+52036,Nariño,Ancuya,2019,8811
+52051,Nariño,Arboleda,2019,8562
+52079,Nariño,Barbacoas,2019,57305
+52083,Nariño,Belén,2019,6317
+52110,Nariño,Buesaco,2019,24132
+52203,Nariño,Colón,2019,8524
+52207,Nariño,Consacá,2019,14050
+52210,Nariño,Contadero,2019,7318
+52215,Nariño,Córdoba,2019,15743
+52224,Nariño,Cuaspud Carlosama,2019,9302
+52227,Nariño,Cumbal,2019,37488
+52233,Nariño,Cumbitara,2019,5946
+52240,Nariño,Chachagüí,2019,15557
+52250,Nariño,El Charco,2019,22445
+52254,Nariño,El Peñol,2019,7524
+52256,Nariño,El Rosario,2019,12412
+52258,Nariño,El Tablón de Gómez,2019,14402
+52260,Nariño,El Tambo,2019,14359
+52287,Nariño,Funes,2019,7263
+52317,Nariño,Guachucal,2019,19660
+52320,Nariño,Guaitarilla,2019,11589
+52323,Nariño,Gualmatán,2019,7180
+52352,Nariño,Iles,2019,7672
+52354,Nariño,Imués,2019,7698
+52356,Nariño,Ipiales,2019,117206
+52378,Nariño,La Cruz,2019,18922
+52381,Nariño,La Florida,2019,10110
+52385,Nariño,La Llanada,2019,6509
+52390,Nariño,La Tola,2019,7490
+52399,Nariño,La Unión,2019,32307
+52405,Nariño,Leiva,2019,9781
+52411,Nariño,Linares,2019,10253
+52418,Nariño,Los Andes,2019,9566
+52427,Nariño,Magüí,2019,25340
+52435,Nariño,Mallama,2019,8971
+52473,Nariño,Mosquera,2019,12007
+52480,Nariño,Nariño,2019,4397
+52490,Nariño,Olaya Herrera,2019,25611
+52506,Nariño,Ospina,2019,7119
+52520,Nariño,Francisco Pizarro,2019,14463
+52540,Nariño,Policarpa,2019,9905
+52560,Nariño,Potosí,2019,10428
+52565,Nariño,Providencia,2019,5572
+52573,Nariño,Puerres,2019,8585
+52585,Nariño,Pupiales,2019,17496
+52612,Nariño,Ricaurte,2019,20132
+52621,Nariño,Roberto Payán,2019,12587
+52678,Nariño,Samaniego,2019,29434
+52683,Nariño,Sandoná,2019,20793
+52685,Nariño,San Bernardo,2019,9207
+52687,Nariño,San Lorenzo,2019,18547
+52693,Nariño,San Pablo,2019,15406
+52694,Nariño,San Pedro de Cartago,2019,6860
+52696,Nariño,Santa Bárbara,2019,13549
+52699,Nariño,Santacruz,2019,10741
+52720,Nariño,Sapuyes,2019,7358
+52786,Nariño,Taminango,2019,17968
+52788,Nariño,Tangua,2019,13708
+52835,Nariño,San Andrés de Tumaco,2019,257419
+52838,Nariño,Túquerres,2019,45170
+52885,Nariño,Yacuanquer,2019,11058
+54001,Norte de Santander,San José de Cúcuta,2019,736089
+54003,Norte de Santander,Ábrego,2019,32731
+54051,Norte de Santander,Arboledas,2019,9884
+54099,Norte de Santander,Bochalema,2019,8413
+54109,Norte de Santander,Bucarasica,2019,6557
+54125,Norte de Santander,Cácota,2019,2863
+54128,Norte de Santander,Cáchira,2019,11301
+54172,Norte de Santander,Chinácota,2019,17828
+54174,Norte de Santander,Chitagá,2019,11948
+54206,Norte de Santander,Convención,2019,19064
+54223,Norte de Santander,Cucutilla,2019,8262
+54239,Norte de Santander,Durania,2019,4661
+54245,Norte de Santander,El Carmen,2019,13569
+54250,Norte de Santander,El Tarra,2019,21378
+54261,Norte de Santander,El Zulia,2019,28039
+54313,Norte de Santander,Gramalote,2019,7556
+54344,Norte de Santander,Hacarí,2019,10245
+54347,Norte de Santander,Herrán,2019,7109
+54377,Norte de Santander,Labateca,2019,6465
+54385,Norte de Santander,La Esperanza,2019,11699
+54398,Norte de Santander,La Playa,2019,7843
+54405,Norte de Santander,Los Patios,2019,92797
+54418,Norte de Santander,Lourdes,2019,4080
+54480,Norte de Santander,Mutiscua,2019,4283
+54498,Norte de Santander,Ocaña,2019,122171
+54518,Norte de Santander,Pamplona,2019,50724
+54520,Norte de Santander,Pamplonita,2019,5579
+54553,Norte de Santander,Puerto Santander,2019,8799
+54599,Norte de Santander,Ragonvalia,2019,6076
+54660,Norte de Santander,Salazar,2019,10501
+54670,Norte de Santander,San Calixto,2019,12410
+54673,Norte de Santander,San Cayetano,2019,7456
+54680,Norte de Santander,Santiago,2019,3499
+54720,Norte de Santander,Sardinata,2019,25940
+54743,Norte de Santander,Silos,2019,6396
+54800,Norte de Santander,Teorama,2019,16728
+54810,Norte de Santander,Tibú,2019,56369
+54820,Norte de Santander,Toledo,2019,15908
+54871,Norte de Santander,Villa Caro,2019,5108
+54874,Norte de Santander,Villa del Rosario,2019,107014
+63001,Quindío,Armenia,2019,297241
+63111,Quindío,Buenavista,2019,3146
+63130,Quindío,Calarcá,2019,73370
+63190,Quindío,Circasia,2019,28424
+63212,Quindío,Córdoba,2019,5725
+63272,Quindío,Filandia,2019,12218
+63302,Quindío,Génova,2019,7612
+63401,Quindío,La Tebaida,2019,33592
+63470,Quindío,Montenegro,2019,36994
+63548,Quindío,Pijao,2019,5281
+63594,Quindío,Quimbaya,2019,30970
+63690,Quindío,Salento,2019,9536
+66001,Risaralda,Pereira,2019,471992
+66045,Risaralda,Apía,2019,12572
+66075,Risaralda,Balboa,2019,6549
+66088,Risaralda,Belén de Umbría,2019,25007
+66170,Risaralda,Dosquebradas,2019,221201
+66318,Risaralda,Guática,2019,12376
+66383,Risaralda,La Celia,2019,7626
+66400,Risaralda,La Virginia,2019,28010
+66440,Risaralda,Marsella,2019,17167
+66456,Risaralda,Mistrató,2019,17414
+66572,Risaralda,Pueblo Rico,2019,16759
+66594,Risaralda,Quinchía,2019,27784
+66682,Risaralda,Santa Rosa de Cabal,2019,78945
+66687,Risaralda,Santuario,2019,12810
+68001,Santander,Bucaramanga,2019,590543
+68013,Santander,Aguada,2019,1856
+68020,Santander,Albania,2019,4137
+68051,Santander,Aratoca,2019,8431
+68077,Santander,Barbosa,2019,31749
+68079,Santander,Barichara,2019,10964
+68081,Santander,Barrancabermeja,2019,208608
+68092,Santander,Betulia,2019,6158
+68101,Santander,Bolívar,2019,11291
+68121,Santander,Cabrera,2019,1984
+68132,Santander,California,2019,2187
+68147,Santander,Capitanejo,2019,5665
+68152,Santander,Carcasí,2019,4418
+68160,Santander,Cepitá,2019,2077
+68162,Santander,Cerrito,2019,6904
+68167,Santander,Charalá,2019,12613
+68169,Santander,Charta,2019,2986
+68176,Santander,Chimá,2019,2966
+68179,Santander,Chipatá,2019,5078
+68190,Santander,Cimitarra,2019,33127
+68207,Santander,Concepción,2019,5846
+68209,Santander,Confines,2019,3258
+68211,Santander,Contratación,2019,3771
+68217,Santander,Coromoro,2019,5172
+68229,Santander,Curití,2019,13122
+68235,Santander,El Carmen de Chucurí,2019,21697
+68245,Santander,El Guacamayo,2019,2175
+68250,Santander,El Peñón,2019,5270
+68255,Santander,El Playón,2019,14073
+68264,Santander,Encino,2019,2621
+68266,Santander,Enciso,2019,3571
+68271,Santander,Florián,2019,5570
+68276,Santander,Floridablanca,2019,297269
+68296,Santander,Galán,2019,2959
+68298,Santander,Gámbita,2019,4028
+68307,Santander,Girón,2019,163955
+68318,Santander,Guaca,2019,6093
+68320,Santander,Guadalupe,2019,4522
+68322,Santander,Guapotá,2019,2461
+68324,Santander,Guavatá,2019,4244
+68327,Santander,Güepsa,2019,5211
+68344,Santander,Hato,2019,2398
+68368,Santander,Jesús María,2019,3350
+68370,Santander,Jordán,2019,1431
+68377,Santander,La Belleza,2019,6210
+68385,Santander,Landázuri,2019,10408
+68397,Santander,La Paz,2019,4961
+68406,Santander,Lebrija,2019,43592
+68418,Santander,Los Santos,2019,14710
+68425,Santander,Macaravita,2019,2235
+68432,Santander,Málaga,2019,21541
+68444,Santander,Matanza,2019,5143
+68464,Santander,Mogotes,2019,10742
+68468,Santander,Molagavita,2019,4270
+68498,Santander,Ocamonte,2019,5862
+68500,Santander,Oiba,2019,11032
+68502,Santander,Onzaga,2019,4311
+68522,Santander,Palmar,2019,1401
+68524,Santander,Palmas del Socorro,2019,2603
+68533,Santander,Páramo,2019,4836
+68547,Santander,Piedecuesta,2019,175470
+68549,Santander,Pinchote,2019,5355
+68572,Santander,Puente Nacional,2019,14766
+68573,Santander,Puerto Parra,2019,7918
+68575,Santander,Puerto Wilches,2019,33635
+68615,Santander,Rionegro,2019,26880
+68655,Santander,Sabana de Torres,2019,34046
+68669,Santander,San Andrés,2019,8809
+68673,Santander,San Benito,2019,2960
+68679,Santander,San Gil,2019,58286
+68682,Santander,San Joaquín,2019,2313
+68684,Santander,San José de Miranda,2019,4442
+68686,Santander,San Miguel,2019,2572
+68689,Santander,San Vicente de Chucurí,2019,33894
+68705,Santander,Santa Bárbara,2019,2428
+68720,Santander,Santa Helena del Opón,2019,3380
+68745,Santander,Simacota,2019,10380
+68755,Santander,Socorro,2019,33037
+68770,Santander,Suaita,2019,10046
+68773,Santander,Sucre,2019,7185
+68780,Santander,Suratá,2019,4118
+68820,Santander,Tona,2019,7620
+68855,Santander,Valle de San José,2019,6288
+68861,Santander,Vélez,2019,24858
+68867,Santander,Vetas,2019,2139
+68872,Santander,Villanueva,2019,8124
+68895,Santander,Zapatoca,2019,9669
+70001,Sucre,Sincelejo,2019,286099
+70110,Sucre,Buenavista,2019,10754
+70124,Sucre,Caimito,2019,15686
+70204,Sucre,Coloso,2019,8918
+70215,Sucre,Corozal,2019,69271
+70221,Sucre,Coveñas,2019,18988
+70230,Sucre,Chalán,2019,4546
+70233,Sucre,El Roble,2019,10100
+70235,Sucre,Galeras,2019,22615
+70265,Sucre,Guaranda,2019,18081
+70400,Sucre,La Unión,2019,12666
+70418,Sucre,Los Palmitos,2019,23430
+70429,Sucre,Majagual,2019,37386
+70473,Sucre,Morroa,2019,15455
+70508,Sucre,Ovejas,2019,23252
+70523,Sucre,Palmito,2019,14499
+70670,Sucre,Sampués,2019,47789
+70678,Sucre,San Benito Abad,2019,29357
+70702,Sucre,San Juan de Betulia,2019,13795
+70708,Sucre,San Marcos,2019,59008
+70713,Sucre,San Onofre,2019,50434
+70717,Sucre,San Pedro,2019,19030
+70742,Sucre,San Luis de Sincé,2019,31255
+70771,Sucre,Sucre,2019,30354
+70820,Sucre,Santiago de Tolú,2019,33838
+70823,Sucre,Tolú Viejo,2019,21756
+73001,Tolima,Ibagué,2019,533745
+73024,Tolima,Alpujarra,2019,4598
+73026,Tolima,Alvarado,2019,8754
+73030,Tolima,Ambalema,2019,6679
+73043,Tolima,Anzoátegui,2019,10314
+73055,Tolima,Armero,2019,12741
+73067,Tolima,Ataco,2019,19509
+73124,Tolima,Cajamarca,2019,18728
+73148,Tolima,Carmen de Apicalá,2019,10270
+73152,Tolima,Casabianca,2019,6442
+73168,Tolima,Chaparral,2019,50941
+73200,Tolima,Coello,2019,8333
+73217,Tolima,Coyaima,2019,23040
+73226,Tolima,Cunday,2019,8838
+73236,Tolima,Dolores,2019,8423
+73268,Tolima,Espinal,2019,70814
+73270,Tolima,Falan,2019,7757
+73275,Tolima,Flandes,2019,28542
+73283,Tolima,Fresno,2019,31295
+73319,Tolima,Guamo,2019,33176
+73347,Tolima,Herveo,2019,7491
+73349,Tolima,Honda,2019,24729
+73352,Tolima,Icononzo,2019,12024
+73408,Tolima,Lérida,2019,18603
+73411,Tolima,Líbano,2019,36968
+73443,Tolima,Mariquita,2019,38252
+73449,Tolima,Melgar,2019,37013
+73461,Tolima,Murillo,2019,4201
+73483,Tolima,Natagaima,2019,15007
+73504,Tolima,Ortega,2019,35050
+73520,Tolima,Palocabildo,2019,9839
+73547,Tolima,Piedras,2019,6845
+73555,Tolima,Planadas,2019,26013
+73563,Tolima,Prado,2019,8558
+73585,Tolima,Purificación,2019,23682
+73616,Tolima,Rioblanco,2019,22954
+73622,Tolima,Roncesvalles,2019,5495
+73624,Tolima,Rovira,2019,21848
+73671,Tolima,Saldaña,2019,14532
+73675,Tolima,San Antonio,2019,13003
+73678,Tolima,San Luis,2019,13678
+73686,Tolima,Santa Isabel,2019,5821
+73770,Tolima,Suárez,2019,3839
+73854,Tolima,Valle de San Juan,2019,5375
+73861,Tolima,Venadillo,2019,12868
+73870,Tolima,Villahermosa,2019,9347
+73873,Tolima,Villarrica,2019,5164
+76001,Valle del Cauca,Cali,2019,2248066
+76020,Valle del Cauca,Alcalá,2019,14195
+76036,Valle del Cauca,Andalucía,2019,22899
+76041,Valle del Cauca,Ansermanuevo,2019,17644
+76054,Valle del Cauca,Argelia,2019,5459
+76100,Valle del Cauca,Bolívar,2019,16052
+76109,Valle del Cauca,Buenaventura,2019,311801
+76111,Valle del Cauca,Guadalajara de Buga,2019,128980
+76113,Valle del Cauca,Bugalagrande,2019,24559
+76122,Valle del Cauca,Caicedonia,2019,29157
+76126,Valle del Cauca,Calima,2019,18297
+76130,Valle del Cauca,Candelaria,2019,95612
+76147,Valle del Cauca,Cartago,2019,137048
+76233,Valle del Cauca,Dagua,2019,50402
+76243,Valle del Cauca,El Águila,2019,9064
+76246,Valle del Cauca,El Cairo,2019,6943
+76248,Valle del Cauca,El Cerrito,2019,56746
+76250,Valle del Cauca,El Dovio,2019,8969
+76275,Valle del Cauca,Florida,2019,57629
+76306,Valle del Cauca,Ginebra,2019,23058
+76318,Valle del Cauca,Guacarí,2019,33516
+76364,Valle del Cauca,Jamundí,2019,166031
+76377,Valle del Cauca,La Cumbre,2019,16689
+76400,Valle del Cauca,La Unión,2019,34249
+76403,Valle del Cauca,La Victoria,2019,12308
+76497,Valle del Cauca,Obando,2019,12407
+76520,Valle del Cauca,Palmira,2019,356492
+76563,Valle del Cauca,Pradera,2019,48198
+76606,Valle del Cauca,Restrepo,2019,15464
+76616,Valle del Cauca,Riofrío,2019,15689
+76622,Valle del Cauca,Roldanillo,2019,37222
+76670,Valle del Cauca,San Pedro,2019,17047
+76736,Valle del Cauca,Sevilla,2019,42583
+76823,Valle del Cauca,Toro,2019,14743
+76828,Valle del Cauca,Trujillo,2019,19406
+76834,Valle del Cauca,Tuluá,2019,215629
+76845,Valle del Cauca,Ulloa,2019,5554
+76863,Valle del Cauca,Versalles,2019,7348
+76869,Valle del Cauca,Vijes,2019,12964
+76890,Valle del Cauca,Yotoco,2019,16213
+76892,Valle del Cauca,Yumbo,2019,109197
+76895,Valle del Cauca,Zarzal,2019,42402
+81001,Arauca,Arauca,2019,86867
+81065,Arauca,Arauquita,2019,50689
+81220,Arauca,Cravo Norte,2019,3968
+81300,Arauca,Fortul,2019,19205
+81591,Arauca,Puerto Rondón,2019,4465
+81736,Arauca,Saravena,2019,56423
+81794,Arauca,Tame,2019,44414
+85001,Casanare,Yopal,2019,173316
+85010,Casanare,Aguazul,2019,37507
+85015,Casanare,Chámeza,2019,2549
+85125,Casanare,Hato Corozal,2019,12503
+85136,Casanare,La Salina,2019,1426
+85139,Casanare,Maní,2019,17666
+85162,Casanare,Monterrey,2019,17858
+85225,Casanare,Nunchía,2019,8960
+85230,Casanare,Orocué,2019,12717
+85250,Casanare,Paz de Ariporo,2019,36850
+85263,Casanare,Pore,2019,12272
+85279,Casanare,Recetor,2019,1667
+85300,Casanare,Sabanalarga,2019,3678
+85315,Casanare,Sácama,2019,2112
+85325,Casanare,San Luis de Palenque,2019,8596
+85400,Casanare,Támara,2019,6972
+85410,Casanare,Tauramena,2019,24050
+85430,Casanare,Trinidad,2019,13434
+85440,Casanare,Villanueva,2019,36416
+86001,Putumayo,Mocoa,2019,58127
+86219,Putumayo,Colón,2019,5472
+86320,Putumayo,Orito,2019,38000
+86568,Putumayo,Puerto Asís,2019,66054
+86569,Putumayo,Puerto Caicedo,2019,16386
+86571,Putumayo,Puerto Guzmán,2019,36397
+86573,Putumayo,Puerto Leguízamo,2019,29828
+86749,Putumayo,Sibundoy,2019,15153
+86755,Putumayo,San Francisco,2019,5653
+86757,Putumayo,San Miguel,2019,18993
+86760,Putumayo,Santiago,2019,7300
+86865,Putumayo,Valle del Guamuez,2019,33714
+86885,Putumayo,Villagarzón,2019,24040
+88001,"Archipiélago de San Andrés, Providencia y Santa Catalina",San Andrés,2019,55644
+88564,"Archipiélago de San Andrés, Providencia y Santa Catalina",Providencia,2019,6035
+91001,Amazonas,Leticia,2019,49058
+91263,Amazonas,El Encanto (ANM),2019,2134
+91405,Amazonas,La Chorrera (ANM),2019,3010
+91407,Amazonas,La Pedrera (ANM),2019,3888
+91430,Amazonas,La Victoria (ANM),2019,652
+91460,Amazonas,Miriti - Paraná (ANM),2019,1893
+91530,Amazonas,Puerto Alegría (ANM),2019,764
+91536,Amazonas,Puerto Arica (ANM),2019,1026
+91540,Amazonas,Puerto Nariño,2019,10018
+91669,Amazonas,Puerto Santander (ANM),2019,1773
+91798,Amazonas,Tarapacá (ANM),2019,3849
+94001,Guainía,Inírida,2019,32779
+94343,Guainía,Barrancominas,2019,8514
+94663,Guainía,Mapiripana (ANM),2019,1032
+94883,Guainía,San Felipe (ANM),2019,1723
+94884,Guainía,Puerto Colombia (ANM),2019,1901
+94885,Guainía,La Guadalupe (ANM),2019,284
+94886,Guainía,Cacahual (ANM),2019,874
+94887,Guainía,Pana Pana (ANM),2019,1911
+94888,Guainía,Morichal (ANM),2019,930
+95001,Guaviare,San José del Guaviare,2019,53107
+95015,Guaviare,Calamar,2019,9603
+95025,Guaviare,El Retorno,2019,13591
+95200,Guaviare,Miraflores,2019,6837
+97001,Vaupés,Mitú,2019,30265
+97161,Vaupés,Carurú,2019,2930
+97511,Vaupés,Pacoa (ANM),2019,4109
+97666,Vaupés,Taraira,2019,2335
+97777,Vaupés,Papunahua (ANM),2019,743
+97889,Vaupés,Yavaraté (ANM),2019,1066
+99001,Vichada,Puerto Carreño,2019,21558
+99524,Vichada,La Primavera,2019,10234
+99624,Vichada,Santa Rosalía,2019,4110
+99773,Vichada,Cumaribo,2019,78147
