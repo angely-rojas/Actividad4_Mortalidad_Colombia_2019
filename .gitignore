@@ -9,3 +9,5 @@ __pycache__/
 data/Defunciones.zip
 data/Listados_DIVIPOLA.xlsx
 data/clasificacion-int-enfermedades-OMS-OPS-V19.xlsx
+# Copia local de respaldo
+main_anterior.py
