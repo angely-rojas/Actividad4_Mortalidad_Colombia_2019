@@ -74,22 +74,22 @@ Si es necesario reconstruir los archivos procesados y se dispone de los insumos 
 
 **Tipo:** mapa coroplético por polígonos departamentales.  
 **Lectura:** la intensidad de azul indica la cantidad absoluta de defunciones registradas por departamento. Los tonos más oscuros representan un mayor recuento. El mapa utiliza límites cartográficos de referencia del DANE (2025). No representa tasas por habitante.
-
+![Figura 1. Distribución geográfica](evidencias/figura_01_mapa.png)
 ### 2. Defunciones por mes
 
 **Tipo:** gráfico de líneas.  
 **Lectura:** presenta los registros de enero a diciembre de 2019 y permite identificar fluctuaciones mensuales. La existencia de máximos o mínimos no demuestra por sí sola estacionalidad ni causalidad.
-
+![Figura 2. Defunciones por mes](evidencias/figura_02_mensual.png)
 ### 3. Cinco municipios con más casos X95
 
 **Tipo:** barras horizontales.  
 **Lectura:** clasifica los cinco municipios con más registros de causas cuyos códigos CIE-10 comienzan por **X95**. Este grupo corresponde a una categoría específica de agresión con arma de fuego; no equivale a todos los homicidios ni expresa tasas de violencia.
-
+![Figura 3. Cinco municipios con más casos X95](evidencias/figura_03_x95.png)
 ### 4. Diez menores tasas municipales por residencia habitual
 
 **Tipo:** gráfico circular de dona.  
 **Lectura:** los diez municipios se seleccionan mediante la **tasa de defunciones de residentes por 100.000 habitantes**, calculada a partir de defunciones de residentes y población municipal de 2019. El **tamaño de cada porción** muestra el número de defunciones de residentes *dentro de los diez municipios seleccionados*, no el valor de la tasa. La tasa y la población se consultan al pasar el cursor sobre cada municipio.
-
+![Figura 4. Menores tasas municipales](evidencias/figura_04_tasas.png)
 **Fórmula:** tasa = (defunciones de residentes / población municipal 2019) × 100.000.  
 **Ejemplos revisados en el dashboard:** Manaure (La Guajira): 88 defunciones, población 86.496 y tasa aproximada de 101,74 por 100.000; Nuquí (Chocó): 5 defunciones, población 16.733 y tasa aproximada de 29,88 por 100.000. La selección se realiza sobre municipios con datos emparejados y válidos; no es necesariamente un listado exhaustivo de todos los municipios del país.
 
@@ -97,17 +97,17 @@ Si es necesario reconstruir los archivos procesados y se dispone de los insumos 
 
 **Tipo:** tabla.  
 **Lectura:** muestra código CIE-10, descripción y número de casos, en orden descendente. Su utilidad es comparar las causas básicas más frecuentes en el conjunto seleccionado.
-
+![Figura 5. Principales causas de muerte](evidencias/figura_05_causas.png)
 ### 6. Defunciones según sexo y departamento
 
 **Tipo:** gráfico de barras apiladas.  
 **Lectura:** permite comparar la distribución de defunciones por sexo en los departamentos y, al utilizar el filtro, observar la composición del territorio seleccionado. Los valores representan recuentos absolutos.
-
+![Figura 6. Distribución por sexo](evidencias/figura_06_sexo.png)
 ### 7. Defunciones por grupos de edad
 
 **Tipo:** gráfico de barras por categorías etarias, construidas a partir de los códigos de edad del DANE.  
 **Lectura:** resume el número de defunciones en grupos como mortalidad neonatal, infancia, adolescencia, juventud, adultez y vejez. Dado que utiliza categorías de edad agregadas, se describe con precisión como **gráfico de barras**, no como histograma continuo.
-
+![Figura 7. Distribución por edad](evidencias/figura_07_edades.png)
 ### Comportamiento del filtro departamental
 
 La opción **Todos los departamentos** muestra la perspectiva nacional. Al elegir un departamento se actualizan la serie mensual, las causas principales, la distribución por sexo y la distribución por edad. El mapa y los rankings conservan la perspectiva nacional para facilitar la comparación contextual. Volver a **Todos los departamentos** restablece los resultados agregados.
